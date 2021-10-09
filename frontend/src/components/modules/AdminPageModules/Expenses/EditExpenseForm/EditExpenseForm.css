@@ -1,0 +1,19 @@
+.editPageStyle {
+  background: url(../../../../../images/addexpense.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: '#fff';
+  padding-left: '20px';
+}
+
+.inputStyle {
+  background-color: 'rgba(0, 0, 0, 0.6)';
+  border-color: 'red';
+  border-bottom-width: 4;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  color: '#fff';
+}

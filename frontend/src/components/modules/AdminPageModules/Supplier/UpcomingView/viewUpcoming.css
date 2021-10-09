@@ -1,0 +1,49 @@
+.tableHeader{
+    border-bottom: 3px solid black;
+}
+.tableSupplier{
+    font-weight: bold;
+}
+.tableSupplier td{
+    
+    color:white;
+    background-color: #363740;
+}
+.updateDelete{
+    display:flex; 
+    flex-direction:row;
+    align-items: center;
+}
+
+.modal-backdrop{
+    background-color: rgba(117, 117, 117, 0.616);
+}
+.modal-content{
+    /*background-color: rgba(240, 233, 233, 0.527); */
+    background-color: #d3d3d3;
+    color:black;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 25px !important;
+    font-weight: bold; 
+}
+.modal-content button{
+    background-color: #288FB4;
+}
+
+.modal-content button:hover{
+    background-image: linear-gradient(to right, #7b4397 0%, #dc2430  51%, #7b4397  100%)
+}
+
+
+.submitBtnForm{
+    width: 100%;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.upcomingMargin{ 
+    background-color: #dddddd;
+    color:black;
+    margin-left: none;
+}

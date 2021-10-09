@@ -1,0 +1,30 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.gq{
+    margin-left: 150px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#gqcenter{
+    text-align: center;
+}
+
+.detailscenter{
+    border-style: solid;
+    border-color: transparent;
+
+}

@@ -1,0 +1,123 @@
+.form-container {
+    margin: 0px auto;
+    width:100% ;
+    position: relative;
+    border-radius: 0px;
+    height: 850px;
+    background-color: rgb(226, 226, 226);
+  }
+  
+  .form-space {
+    margin: 100px auto;
+    width: 1000px;
+    position: relative;
+    border-radius: 10px;
+    height: 500px;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+  }
+
+
+
+  .form-h {
+
+    top: 40%;
+    color: rgb(68, 17, 17);
+    font-size: 30px;
+
+  }
+  
+  .form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form h1 {
+    font-size: 2rem;
+    text-align: start;
+    width: 80%;
+    margin-bottom: 1rem;
+    color: rgb(5, 5, 5);
+  }
+  
+  .form-inputs {
+    margin-bottom: 1.5rem;
+    width: 60%;
+    align-content: stretch;
+    color: #494848;
+  }
+  
+  .form-label {
+    display:inherit;
+    font-size: 0.9rem;
+    margin-bottom: 11px;
+    color: rgb(68, 5, 5);
+  }
+  
+  .form-input {
+    padding-left: 10px;
+    outline: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 90%;
+    border: none;
+  }
+  
+  .form-input::placeholder {
+    color: #4e4a4a;
+    font-size: 12px;
+  }
+  
+  .input-btn {
+    width: 10%;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: linear-gradient(
+      90deg,
+      rgb(1, 143, 84) 0%,
+      rgb(26, 156, 44) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    align-self:flex-end;
+  }
+
+    
+  .input-btn2 {
+    width: 50%;
+    height: 50%;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: linear-gradient(
+      90deg,
+      rgb(117, 19, 19) 0%,
+      rgb(75, 7, 7) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 0.75rem;
+    align-self:center;
+  }
+  
+  .form-input-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(3, 92, 40) 0%,
+      rgb(6, 59, 33) 100%
+    );
+    transition: all 0.4s ease-out;
+  }
+ 

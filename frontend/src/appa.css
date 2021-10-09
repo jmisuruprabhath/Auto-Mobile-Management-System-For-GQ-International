@@ -1,0 +1,32 @@
+/*.container{
+    display: flex;
+    margin-top: 10px;
+    float: left;
+    width: 100%
+} */
+
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+    
+}
+
+@media (min-width: 576px){
+    .container {
+        max-width: 540px;
+    } 
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cardview3{
+    background: linear-gradient(90deg, rgb(134, 134, 139) 0%, rgb(232, 212, 155) 35%, rgba(128, 112, 72, 0.83) 100%);
+    margin-top: -20px;  
+}

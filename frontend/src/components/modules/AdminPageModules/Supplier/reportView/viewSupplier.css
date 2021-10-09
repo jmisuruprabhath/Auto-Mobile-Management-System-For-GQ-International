@@ -1,0 +1,70 @@
+.tableHeader{
+    
+    background: #b8b7b7;
+}
+
+
+.tableSupplier{
+    font-weight: bold;
+}
+
+
+.tableSupplier td{
+    
+    color:white;
+    background-color: #363740;
+}
+
+.updateDelete{
+    display:flex; 
+    flex-direction:row;
+    
+}
+
+#inlineFormInputName{
+    margin-left: 10px;
+    background-color: white;
+    border: 2px solid red;
+    color:black;
+}
+
+.supplierMargin{
+    width: 100%;
+    background-color: #dddddd;
+    color:black;
+    /*margin-left: -25px;*/
+}
+
+#formBasicEmail{
+    border-bottom: 7px solid rgba(255, 0, 0, 0.911);
+}
+#formBasicPassword{
+    border-bottom: 7px solid rgba(255, 0, 0, 0.911);
+
+}
+
+
+
+#btngenreport{
+    background-image: linear-gradient(to right, #159957 0%, #155799  51%, #159957  100%);
+}
+#btngenreport{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border:solid;
+    border-radius: 10px;
+}
+
+#btngenreport:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.alignSupBtn{
+    display: flex;
+    flex-direction: row;
+}

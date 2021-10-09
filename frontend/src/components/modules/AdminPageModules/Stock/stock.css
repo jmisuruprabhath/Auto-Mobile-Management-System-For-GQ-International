@@ -1,0 +1,25 @@
+.alignSupBtn{
+    display: flex;
+    flex-direction: row;
+}
+
+/*
+         
+         .btn-grad {background-image: linear-gradient(to right, #556270 0%, #FF6B6B  51%, #556270  100%)}
+         .btn-grad {
+          width:200px;
+          height:40px;
+          text-decoration: none;
+          text-transform: uppercase;
+          transition: 0.5s;
+          background-size: 200% auto;
+          color: white;
+          border: none;
+          border-radius: 10px;
+          }
+*/
+         /* .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+           /* color: #fff;
+            text-decoration: none;
+          }*/

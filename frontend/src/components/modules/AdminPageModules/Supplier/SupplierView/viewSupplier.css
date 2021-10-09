@@ -1,0 +1,130 @@
+.tableHeader {
+  border-bottom: black;
+}
+
+.tableSupplier {
+  font-weight: bold;
+}
+
+.tableSupplier td {
+  color: white;
+  background-color: #363740;
+}
+
+.updateDelete {
+  display: flex;
+  flex-direction: row;
+}
+
+#inlineFormInputName {
+  background-color: #363740;
+  border: 2px solid blanchedalmond;
+  color: white;
+}
+
+.supplierMargin {
+  width: 100%;
+  background-color: #dddddd;
+  color: blanchedalmond;
+}
+
+/*#formBasicEmail{
+    border-bottom: 7px solid rgba(255, 0, 0, 0.911);
+}
+#formBasicPassword{
+    border-bottom: 7px solid rgba(255, 0, 0, 0.911);
+
+} */
+
+/*new colors to buttons*/
+
+.btnEdit {
+  background-image: linear-gradient(
+    to right,
+    #f09819 0%,
+    #edde5d 51%,
+    #f09819 100%
+  );
+}
+.btnEdit {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.btnEdit:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btnDelete {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+}
+.btnDelete {
+  text-align: center;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.btnDelete:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.addbtn1 {
+  background-image: linear-gradient(
+    to right,
+    #7b4397 0%,
+    #dc2430 51%,
+    #7b4397 100%
+  );
+}
+.addbtn1 {
+  text-decoration: none;
+
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.addbtn1:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/*Table css*/
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.formLabel {
+  color: black;
+  font-weight: bold;
+}

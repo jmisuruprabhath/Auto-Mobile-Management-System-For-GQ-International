@@ -1,0 +1,32 @@
+.supplierNavbar{
+    font-weight: 1000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+/* .navSupplier{
+    
+}
+
+.navitemsSupplier{
+
+} */
+
+.navitemsSupplier{
+    background-image: linear-gradient(to right, #7b4397 0%, #dc2430  51%, #7b4397  100%);
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border: solid;
+    border-radius: 10px;
+
+
+}
+.navitemsSupplier:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}

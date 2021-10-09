@@ -1,0 +1,40 @@
+.paymentbg{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.title-payOnline{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.form-bg{
+    background-color: #AF2626;
+    height: auto;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.form-components{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.lable-opay{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color: white;
+}
+
+.date{
+    padding-bottom: 5px;
+}
+
+.namelables{
+    margin-left: 150px;
+    margin-right: 50px;
+}
